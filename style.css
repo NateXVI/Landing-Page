@@ -103,7 +103,7 @@ a {
   /* max-height: 20vh; */
   width: 80%;
   margin: auto;
-  background: black;
+  background: rgba(0, 0, 0, 0.5);
   padding: 1em;
   border-radius: 15px;
 }
@@ -283,6 +283,10 @@ a {
   padding: 0.25em 1em;
   font-size: 2em;
   backdrop-filter: blur(1em);
+}
+
+.buy-button:hover {
+  background: blue;
 }
 
 @media (max-width: 1100px) {
