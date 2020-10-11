@@ -216,6 +216,7 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
+  padding-bottom: 5em;
 }
 
 .compatible-device {
